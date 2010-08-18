@@ -1,8 +1,52 @@
 body {
-	background: #DEB754;
+	background: #FFF77C;
 	font-family: Arial;
 }
-div#content {
+div#container {
 	width: 720px;
 	margin: 0px auto;
+}
+div#footer {
+	text-align: center;
+}
+span#explanation {
+	display: block;
+	margin-top: 10px;
+	font-size: 1.3em;
+	font-family: Palatino;
+}
+img {
+
+	margin: 0px auto;
+}
+span.headline {
+	display: block;
+	margin-bottom: 10px;
+	font-size: 2em;
+	font-family: Helvetica;
+}
+div#signup {
+	margin-top: 50px;
+}
+div#buy_pitch {
+	width: 300px;
+	float: left;
+	clear: left;
+	padding: 10px;
+}
+div#payment_form {
+	width: 400px;
+	float: right;
+	clear: right;
+}
+div#footer {
+	display: block;
+	margin-top: 30px;
+	clear: both;
+}
+div#footer a {
+	padding: 10px;
+}
+li {
+	margin-bottom: 10px;
 }
